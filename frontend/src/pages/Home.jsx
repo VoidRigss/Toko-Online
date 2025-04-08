@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Product from "./product";
+import About from "./About";
 
 const Home = () => {
   const navigate = useNavigate(); // Gunakan useNavigate di sini
@@ -43,9 +43,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* Product */}
+        {/* About */}
         <div className="text-center mt-0 bg-gray-200 text-black h-auto">
-          <Product />
+          <About />
         </div>
       </div>
     </>

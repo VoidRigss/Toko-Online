@@ -1,7 +1,4 @@
-import { faFireFlameCurved } from "@fortawesome/free-solid-svg-icons/faFireFlameCurved";
-import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
-import { faHandPointer } from "@fortawesome/free-solid-svg-icons/faHandPointer";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping";
+import { faFireFlameCurved, faThumbsUp, faHandPointer, faCartShopping } from "@fortawesome/free-solid-svg-icons";
  
  export const listcard = [
     {
@@ -13,8 +10,17 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping
       tag: "Produk Terbaru",
       price: "IDR 16.999.000",
       hasMultipleColors: true,
+      color: "none",
       ram: ["8GB"],
       rom: ["128GB", "256GB", "512GB"],
+      stock: {
+        "Biru Laut-8GB-128GB": 10,
+        "Biru Laut-8GB-256GB": 5,
+        "Biru Laut-8GB-512GB": 2,
+        "Pink-8GB-128GB": 8,
+        "Pink-8GB-256GB": 4,
+        "Pink-8GB-512GB": 1,
+      },
     },
     {
       id: 2,
@@ -24,8 +30,15 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping
       tag: "Produk Terlaris",
       price: "IDR 11.700.000",
       hasMultipleColors: false,
+      color: "Silver",
       ram: ["6GB"],
       rom: ["128GB", "256GB", "512GB", "1024GB"],
+      stock: {
+        "Silver-6GB-128GB": 7,
+        "Silver-6GB-256GB": 2,
+        "Silver-6GB-512GB": 16,
+        "Silver-6GB-1024GB": 9,
+      },
     },
     {
       id: 3,
@@ -35,8 +48,14 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping
       tag: "Produk Termurah",
       price: "IDR 7.299.000",
       hasMultipleColors: false,
+      color: "White",
       ram: ["4GB"],
       rom: ["64GB", "256GB", "512GB"],
+      stock: {
+        "White-4GB-64GB": 17,
+        "White-4GB-256GB": 23,
+        "White-4GB-512GB": 2,
+      },
     },
     {
       id: 4,
@@ -46,8 +65,14 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping
       tag: "Produk Terlaris",
       price: "IDR 15.000.000",
       hasMultipleColors: false,
+      color: "Purple",
       ram: ["12GB"],
       rom: ["256GB", "512GB", "1024GB"],
+      stock: {
+        "Purple-12GB-256GB": 5,
+        "Purple-12GB-512GB": 3,
+        "Purple-12GB-1024GB": 2,
+      },
     },
     {
       id: 5,
@@ -57,8 +82,12 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping
       tag: "Paling Banyak Dicari",
       price: "IDR 4.200.000",
       hasMultipleColors: false,
+      color: "Black",
       ram: ["8GB"],
       rom: ["256GB"],
+      stock: {
+        "Black-8GB-256GB": 28,
+      },
     },
     {
       id: 6,
@@ -68,8 +97,12 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping
       tag: "Produk Terbaru",
       price: "IDR 4.199.000",
       hasMultipleColors: false,
+      color: "White",
       ram: ["8GB"],
       rom: ["256GB"],
+      stock: {
+        "White-8GB-256GB": 68,
+      },
     },
   ];
 
